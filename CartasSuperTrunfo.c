@@ -6,8 +6,18 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() { 
-     printf("digite a populacao:\n");
+int main() {
+    printf("digite o estado:\n");
+    char estado;
+    scanf("%c", &estado);
+    printf("\n");
+    printf("digite codigo:\n");
+    
+    char codigo[3];
+    scanf("%c", &codigo);
+    printf("\n");
+    printf
+    printf("digite a populacao:\n");
      int populacao;
 
      scanf("%i",&populacao );
