@@ -19,7 +19,7 @@ int main() {
     char cidade[50];
     printf("digite o nome da cidade:");
     //scanf("%s", cidade);
-    getchar(); // Consome o caractere de nova linha
+    getchar();
     //printf(cidade);
     fgets(cidade, 50, stdin);
    // cidade[strcspn(cidade, "\n")] = 0;
