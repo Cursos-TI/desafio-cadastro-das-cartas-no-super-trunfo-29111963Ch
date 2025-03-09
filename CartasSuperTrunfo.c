@@ -16,12 +16,13 @@ int main() {
     char codigo[3];
     scanf("%s", codigo);
     printf("\n");
-    printf("digite o nome da cidade:\n");
     char cidade[50];
+    printf("digite o nome da cidade:");
     //scanf("%s", cidade);
+    getchar(); // Consome o caractere de nova linha
     //printf(cidade);
     fgets(cidade, 50, stdin);
-    cidade[strcspn(cidade, "\n")] = 0;
+   // cidade[strcspn(cidade, "\n")] = 0;
     printf("\n");
     printf("digite a populacao:\n");
      int populacao;
